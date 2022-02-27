@@ -1,6 +1,7 @@
 # Python scripts for learning Flask.
 # Base material referenced from:
 # * Flask Documentation - https://flask.palletsprojects.com/en/2.0.x/
+# * Flask Official Tutorial - https://flask.palletsprojects.com/en/2.0.x/tutorial/
 # * pythonbasics.org - https://pythonbasics.org/what-is-flask-python/
 # Written by Jerrybibo, 2022.
 
