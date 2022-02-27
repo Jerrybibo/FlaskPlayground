@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>Hello {{ username }}!</h1>
+    <p>Hold on, let me check if you are Jerry...</p>
+    {% if username == 'Jerry' %}
+    <p>You are! Welcome!</p>
+    {% else %}
+    <p>You're not Jerry! Get outta here!</p>
+    {% endif %}
+</body>
+</html>
