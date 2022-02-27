@@ -3,6 +3,7 @@
 # Reference: https://flask.palletsprojects.com/en/2.0.x/tutorial/factory/
 import os
 from flask import Flask
+from . import db
 
 
 def create_app(test_config=None):
@@ -35,6 +36,9 @@ def create_app(test_config=None):
     @app.route('/hello')
     def hello():
         return '<p>Hello world!</p>'
+
+    # Register the init-db command and close_db function with the application instance
+    db.init_app(app)
 
     # Be sure to return the object
     return app
